@@ -1,9 +1,10 @@
-import React from 'react';
+import { ExperienceBar } from './components/ExperienceBar';
+import './styles/global.css';
 
 function App() {
   return (
-    <div>
-      <p>Hello World!</p>
+    <div className="container">
+      <ExperienceBar></ExperienceBar>
     </div>
   );
 }
